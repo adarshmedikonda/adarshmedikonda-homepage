@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { BsFileTextFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 
 
 const LinkItem = ({ href, path, target, children, ...props }) => {

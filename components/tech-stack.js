@@ -1,5 +1,5 @@
-import { Flex, Box, Stack, HStack, VStack } from '@chakra-ui/react'    // Stack imports
-import { Card, CardHeader, CardBody } from '@chakra-ui/react'    // Card imports
+import { VStack } from '@chakra-ui/react'    // Stack imports
+import { Card, CardBody } from '@chakra-ui/react'    // Card imports
 import { Heading, Text } from '@chakra-ui/react'                 // Text imports
 const TechStack = () => {
     return (

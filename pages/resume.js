@@ -1,4 +1,4 @@
-import { Text, Container, Box, Heading, Stack, OrderedList, UnorderedList } from '@chakra-ui/react'
+import { Text, Container, Box, Heading, Stack, UnorderedList } from '@chakra-ui/react'
 import { Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import ResumeItem from '../components/resume-item'

@@ -1,5 +1,4 @@
 import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { GiNightSleep } from "react-icons/gi";
 import { HiLightBulb } from "react-icons/hi";
 const ThemeToggleButton = () => {

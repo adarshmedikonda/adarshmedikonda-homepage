@@ -1,4 +1,4 @@
-import { Link, Text, Container, Box, Heading, Stack, Flex, Avatar } from '@chakra-ui/react'
+import { Link, Text, Container, Box, Heading, Stack, Avatar } from '@chakra-ui/react'
 import { Card, CardHeader, CardBody } from '@chakra-ui/react'
 import { Divider } from '@chakra-ui/react'
 import Section from '../components/section'
