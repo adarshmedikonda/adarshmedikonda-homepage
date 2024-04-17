@@ -7,28 +7,33 @@ import NextLink from 'next/link'
 
 const Page = () => {
     return (
-        <Container maxW="container.full">
+        <Container p={2}>
             <Section delay={0.1}>
+
                 <Box display={{ md:'flex' }}>
-                    <Box flexGrow={1} pt={10}>
+                    <Box flexGrow={1} mt={6}>
                     <Card align='center' direction="row">
-                        <CardHeader pl={8} pr={12}>
-                            <Heading size='xl' pt={2} pb={1}>Adarsh Medikonda</Heading>
-                            <Text fontSize={18} pb={3}>building all sorts of software, hardware, and connections</Text>
+                        <CardHeader ml='flex' mr='flex'>
+                            <Heading size='xl'>Adarsh Medikonda</Heading>
+                            <Text fontSize={18} mb={1}>
+                            building all sorts of software, hardware, and connections
+                            </Text>
                         </CardHeader>
-                        <CardBody pl={45}>
-                            <Avatar name="Adarsh Medikonda" src='/images/avatar.jpg' size='xl'/>
-                        </CardBody>
+                        <Box
+                        mt={{ base: 4, md: 0}}
+                        ml={{ md: 6 }}>
+                            <CardBody>
+                                <Avatar name="Adarsh Medikonda" src='/images/avatar.jpg' size='xl'/>
+                            </CardBody>
+                        </Box>
                     </Card>
                     </Box>
                 </Box>
             </Section>
-            <Box display={{ md:'flex' }}>
-            <Box flexGrow={1}>
+
             <Section delay={0.3}>
-                <Stack direction='row' h='300px' pl={6} pt={5}>
-                    <Divider orientation='vertical'/>
-                    <Text pt={4} pl={5}>
+                <Stack direction='row' align='justify'>
+                    <Text pt={6} pl={6} mr={6}>
                         Hello! My name is Adarsh.
                         <br/><br/>
                         I am a new grad from Texas A&M University, majoring in {' '}
@@ -45,25 +50,28 @@ const Page = () => {
                         </Link>.
                         <br/><br/>
                         I am an incredibly curious person by nature, especially with regards to technology, 
-                        <br/>
                         but a few of my main interests are in software development, embedded, and system engineering.
                         <br/><br/>
-                        Want to know my background or projects? Check out my {' '}
+                        Want to know my background or projects? Check out my  {' '} 
                         <Link as={NextLink} href="/resume">
                             resume
+                        </Link>!
+                        <br/><br/>
+                        Other places you can reach me? <br/>
+                        <Link as={NextLink} href="https://github.com/adarshmedikonda">
+                            @GitHub
+                        </Link> or {' '}
+                        <Link as={NextLink} href="https://www.linkedin.com/in/medikonda-adarsh/">
+                            @LinkedIn
                         </Link>!
                     </Text>
                 </Stack>
             </Section>
-            </Box>
-            </Box>
-            <Box display={{ md:'flex' }}>
-            <Box flexGrow={1}>
+          
             <Section delay={0.5}>
-               
-                <Heading size='md' variant='header-section' pl={0} pt={7} pb={2}>About Me</Heading>
-                <Stack direction='row' h='210px' pl={6}>
-                    <Text align='justify' pt={5} pl={0} pr={6}>
+                <Heading size='md' mt={6} variant='header-section'>About Me</Heading>
+                <Stack direction='row' pl={6}>
+                    <Text align='justify' pt={6} pl={0} pr={6}>
                         On the weekends you'll catch me winding down playing videogames! I grew up with a love for all
                         sorts of games, ranging from JRPGs to MMOs and even FPS. Fun fact: My first encounter with 
                         programming was Lua, and that was because of World of Warcraft addons!
@@ -75,16 +83,14 @@ const Page = () => {
                     </Text>
                 </Stack>
             </Section>
-            </Box>
-            </Box>
-            <Box display={{ md:'flex' }}>
-            <Box flexGrow={1}>
+
+           
             <Section delay={0.7}>
                 <Heading size='md' variant='header-section' pl={0} pt={6} pb={2}>Skills</Heading>
                 <TechStack />
             </Section>
-            </Box>
-            </Box>
+            
+
         <Text pt={300} align='right'>made with love by adarsh medikonda</Text>
         </Container>
     )

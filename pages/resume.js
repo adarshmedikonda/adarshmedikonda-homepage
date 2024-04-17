@@ -27,7 +27,7 @@ const Resume = () => {
         <Container maxW="container.full">
             <Section delay={0.1}>
                 <Box display={{ md:'flex' }}>
-                    <Box flexGrow={1} pt={5}>
+                    <Box flexGrow={1} mt={5}>
                         <Heading size='xl' pt={2} pb={2}>Resume</Heading>
                     </Box>
                 </Box>
@@ -167,32 +167,6 @@ const Resume = () => {
                     <ListItem>
                         <Flex align="center" wrap='wrap'>
                             <Text align="center" fontSize={16} marginBottom={1}>
-                                Fall 2023
-                            </Text>
-                            <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
-                            <ResumeItem>
-                                <b>Senior Design: Robotics Control HUB</b><br/>
-                            </ResumeItem>
-                            <UnorderedList pt={3} pl={150} spacing={2}>
-                                <ListItem>
-                                Created an educational Robotics Control HUB for students in higher education to intuitively deploy robotics systems
-                                </ListItem>
-                                <ListItem>
-                                Delivered a Python based API and GUI application for users to interact with their control hub
-                                </ListItem>
-                                <ListItem>
-                                Employed project management skills to seamlessly integrate hardware and software deliverables
-                                </ListItem>
-                                <ListItem>
-                                Designed and verified custom PCB with Altium
-                                </ListItem>
-                            </UnorderedList>
-                            
-                        </Flex>
-                    </ListItem>
-                    <ListItem>
-                        <Flex align="center" wrap='wrap'>
-                            <Text align="center" fontSize={16} marginBottom={1}>
                                 Fall 2021
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
@@ -237,6 +211,25 @@ const Resume = () => {
                     <ListItem>
                         <Flex align="center" wrap='wrap'>
                             <Text align="center" fontSize={16} marginBottom={1}>
+                                Fall 2022
+                            </Text>
+                            <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
+                            <ResumeItem>
+                                <b>Intrusion Detection System</b>
+                            </ResumeItem>
+                            <UnorderedList pt={3} pl={150} spacing={2}>
+                                <ListItem>
+                                Created a Machine Learning based Intrusion Detection System, trained using the IoT-23 dataset driven by sklearn
+                                </ListItem>
+                                <ListItem>
+                                The system was effective in generating network classification reports, visualizing analysis results with Pandas and matplotlib
+                                </ListItem>
+                            </UnorderedList>
+                        </Flex>
+                    </ListItem>
+                    <ListItem>
+                        <Flex align="center" wrap='wrap'>
+                            <Text align="center" fontSize={16} marginBottom={1}>
                                 Fall 2023
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
@@ -261,18 +254,24 @@ const Resume = () => {
                     <ListItem>
                         <Flex align="center" wrap='wrap'>
                             <Text align="center" fontSize={16} marginBottom={1}>
-                                Fall 2022
+                                Fall 2023
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
                             <ResumeItem>
-                                <b>Intrusion Detection System</b>
+                                <b>Senior Design: Robotics Control HUB</b><br/>
                             </ResumeItem>
                             <UnorderedList pt={3} pl={150} spacing={2}>
                                 <ListItem>
-                                Created a Machine Learning based Intrusion Detection System, trained using the IoT-23 dataset driven by sklearn
+                                Created an educational Robotics Control HUB for students in higher education to intuitively deploy robotics systems
                                 </ListItem>
                                 <ListItem>
-                                The system was effective in generating network classification reports, visualizing analysis results with Pandas and matplotlib
+                                Delivered a Python based API and GUI application for users to interact with their control hub
+                                </ListItem>
+                                <ListItem>
+                                Employed project management skills to seamlessly integrate hardware and software deliverables
+                                </ListItem>
+                                <ListItem>
+                                Designed and verified custom PCB with Altium
                                 </ListItem>
                             </UnorderedList>
                         </Flex>

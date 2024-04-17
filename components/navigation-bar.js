@@ -89,7 +89,7 @@ const Navbar = props => {
                         </Button>
                     </LinkItem>
                 </Stack>
-                <Box pt={1}>
+                <Box>
                     <ThemeToggleButton />
                 </Box> 
             </Container>
