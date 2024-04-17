@@ -13,7 +13,32 @@ height: 30px;
 padding: 10px;
 
 &:hover img {
-    transform: rotate(-5deg);
+    animation: shake 1s;
+}
+
+
+img:active {
+  animation: clickEffect 0.1s ease-out;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-8deg); }
+    20% { transform: rotate(0deg); }
+    30% { transform: rotate(8deg); }
+    40% { transform: rotate(0deg); }
+    50% { transform: rotate(-8deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(8deg); }
+    80% { transform: rotate(0deg); }
+    90% { transform: rotate(-8deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes clickEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
 }
 `
 

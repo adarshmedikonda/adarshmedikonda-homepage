@@ -56,7 +56,7 @@ const Navbar = props => {
                 align = "center"
                 justify = "space-between"
             >
-                <Flex align='center' mr={90}>
+                <Flex align='center' mr={155}>
                     <Heading as="h1" size='lg' letterSpacing='tight'></Heading>
                     <Logo />
                 </Flex>
@@ -74,11 +74,11 @@ const Navbar = props => {
                             resume
                         </Button>
                     </LinkItem>
-                    <LinkItem href="/contact" path={path}>
+                    {/* <LinkItem href="/contact" path={path}>
                         <Button size='sm' variant='outline' leftIcon={<MdEmail />}>
                             contact
                         </Button>
-                    </LinkItem>
+                    </LinkItem> */}
                     <LinkItem href="https://github.com/adarshmedikonda" path={path}>
                         <Button size='sm' variant='outline' leftIcon={<FaGithub />}>
                             GitHub

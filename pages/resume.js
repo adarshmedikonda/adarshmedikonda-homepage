@@ -197,7 +197,7 @@ const Resume = () => {
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
                             <ResumeItem>
-                                Line Following Robot
+                                <b>Line Following Robot</b>
                             </ResumeItem>
                             <UnorderedList pt={3} pl={150} spacing={2}>
                                 <ListItem>
@@ -222,7 +222,7 @@ const Resume = () => {
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
                             <ResumeItem>
-                                EMG Video Game Controller
+                                <b>EMG Video Game Controller</b>
                             </ResumeItem>
                             <UnorderedList pt={3} pl={150} spacing={2}>
                                 <ListItem>
@@ -241,7 +241,7 @@ const Resume = () => {
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
                             <ResumeItem>
-                                JavaFX Connect 4
+                                <b>JavaFX Connect 4</b>
                             </ResumeItem>
                             <UnorderedList pt={3} pl={150} spacing={2}>
                                 <ListItem>
@@ -265,7 +265,7 @@ const Resume = () => {
                             </Text>
                             <ListIcon marginLeft={6} as={ChevronRightIcon} color={useColorModeValue('#DE0D92', '#33f567')} />
                             <ResumeItem>
-                                Intrusion Detection System
+                                <b>Intrusion Detection System</b>
                             </ResumeItem>
                             <UnorderedList pt={3} pl={150} spacing={2}>
                                 <ListItem>

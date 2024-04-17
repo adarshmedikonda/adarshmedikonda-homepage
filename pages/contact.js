@@ -1,6 +1,8 @@
-import { Container, Box, Heading, Stack } from '@chakra-ui/react'
+import { Container, Box, Heading, Stack, useColorModeValue } from '@chakra-ui/react'
 import Section from '../components/section'
 import {
+    Flex,
+    Text,
     ListItem,
     List,
   } from '@chakra-ui/react'
@@ -16,12 +18,20 @@ const Page = () => {
                 </Box>
             </Section>
             <Section delay={0.3}>
-                <Stack direction='row' h='500px' pl={5}>
+                <Stack direction='row' h='500px' pl={20} pt={2}>
                     <List>
-                        <ListItem>
-                            email: {' '}
-                            
-                        </ListItem>
+                            <ListItem>
+                                <Flex>
+                                <Text fontSize={22} pr={2}>
+                                    reach me @ 
+                                </Text>
+                                <Text fontSize={22} color={useColorModeValue('#DE0D92', '#33f567')}>
+                                    medikonda.adarsh@gmail.com
+                                </Text>
+                                </Flex>
+                            </ListItem>
+                        
+                        
                         
                     </List>
                 </Stack>
