@@ -23,6 +23,8 @@ const Page = () => {
                     </Box>
                 </Box>
             </Section>
+            <Box display={{ md:'flex' }}>
+            <Box flexGrow={1}>
             <Section delay={0.3}>
                 <Stack direction='row' h='300px' pl={6} pt={5}>
                     <Divider orientation='vertical'/>
@@ -53,8 +55,13 @@ const Page = () => {
                     </Text>
                 </Stack>
             </Section>
+            </Box>
+            </Box>
+            <Box display={{ md:'flex' }}>
+            <Box flexGrow={1}>
             <Section delay={0.5}>
-                <Heading size='md' variant='header-section' pl={0} pt={7} pb={2}>a little bit about me</Heading>
+               
+                <Heading size='md' variant='header-section' pl={0} pt={7} pb={2}>About Me</Heading>
                 <Stack direction='row' h='210px' pl={6}>
                     <Text align='justify' pt={5} pl={0} pr={6}>
                         On the weekends you'll catch me winding down playing videogames! I grew up with a love for all
@@ -68,10 +75,16 @@ const Page = () => {
                     </Text>
                 </Stack>
             </Section>
+            </Box>
+            </Box>
+            <Box display={{ md:'flex' }}>
+            <Box flexGrow={1}>
             <Section delay={0.7}>
-                <Heading size='md' variant='header-section' pl={0} pt={6} pb={2}>skills</Heading>
+                <Heading size='md' variant='header-section' pl={0} pt={6} pb={2}>Skills</Heading>
                 <TechStack />
             </Section>
+            </Box>
+            </Box>
         <Text pt={300} align='right'>made with love by adarsh medikonda</Text>
         </Container>
     )

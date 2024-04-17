@@ -70,7 +70,7 @@ const Navbar = props => {
                 >
                     <LinkItem href="/resume" path={path}>
                         <Button size='sm' variant='outline' leftIcon={<BsFileTextFill />}>
-                            resume
+                            Resume
                         </Button>
                     </LinkItem>
                     {/* <LinkItem href="/contact" path={path}>
