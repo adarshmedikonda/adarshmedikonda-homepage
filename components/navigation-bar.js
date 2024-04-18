@@ -43,7 +43,7 @@ const Navbar = props => {
             as='nav'
             w='100%'
             bg={useColorModeValue('#203E3D42', '#5376ac30')}
-            style={{backdropFilter: 'blur(10px)'}}
+            style={{backdropFilter: 'blur(20px)'}}
             zIndex={1}
             {...props}
         >
@@ -55,7 +55,7 @@ const Navbar = props => {
                 align = "center"
                 justify = "space-between"
             >
-                <Flex align='center' mr={155}>
+                <Flex align='center'>
                     <Heading as="h1" size='lg' letterSpacing='tight'></Heading>
                     <Logo />
                 </Flex>
@@ -67,6 +67,7 @@ const Navbar = props => {
                     alignItems='center'
                     flexGrow = {1}
                     mt = {{base: 4, nmd: 0}}
+                    ml={150}
                 >
                     <LinkItem href="/resume" path={path}>
                         <Button size='sm' variant='outline' leftIcon={<BsFileTextFill />}>
@@ -89,7 +90,7 @@ const Navbar = props => {
                         </Button>
                     </LinkItem>
                 </Stack>
-                <Box>
+                <Box ml={2}>
                     <ThemeToggleButton />
                 </Box> 
             </Container>
