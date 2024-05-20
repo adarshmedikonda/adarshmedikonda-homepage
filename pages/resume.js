@@ -118,7 +118,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                             Reverse engineered currently implemented .NET C# based system to expedite thermostat 
-                            edge computation transition processs
+                            edge computation transition process
                             </ListItem>
                             <ListItem>
                             Produced a thorough testing suite for the application, along with software documentation

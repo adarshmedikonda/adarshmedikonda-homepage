@@ -77,8 +77,8 @@ const Page = () => {
                         programming was Lua, and that was because of World of Warcraft addons!
                         <br/><br/>
                         During longer breaks I'll definitely be off on a road trip adventure or 
-                        a flight overseas. My favorite places to go in the United States are Michigan and Colorado, and recently
-                        I hiked Guadalupe Peak in West Texas! In terms of international trips, a few countries I've had the wonderful
+                        a flight overseas. My favorite places to go in the United States are Michigan and Colorado! 
+                        In terms of international trips, a few countries I've had the wonderful
                         opportunity to visit are Japan, Singapore, India, and Canada!
                     </Text>
                 </Stack>
